@@ -17,7 +17,7 @@ body:
   - type: textarea
     attributes:
       label: "Image"
-      description: "You can upload the file on a service like Imgur and by pasting the link below, or you can upload it in the box below."
+      description: "You can send the image by uploading it on a service like Imgur and by pasting the link below, or you can upload it in the box below."
       placeholder: "Paste the URL, or upload the image by tapping \"Attach files...\" below, or use Drag and Drop."
     validations:
       required: true
@@ -33,5 +33,5 @@ body:
       label: "Send"
       description: "By sending your character, you swear that you are the rightful owner of the image, that you have not obtained it through any means that infringe upon the intellectual property rights of any third party, and that you are willingly giving the image to the project for its use."
       options:
-        - label: "I attest image ownership and grant use."
+        - label: "I attest ownership and grant the use of the image I am sending."
           required: true
